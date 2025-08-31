@@ -2,3 +2,12 @@ This project is a Python script that uses OpenAI GPT-4 to automatically label ne
 
 The project is designed for quick labeling of large amounts of news data for analysis or research purposes.
 
+Features
+
+Automatic sentiment labeling using GPT-4
+
+Processes multiple .txt news files in a directory
+
+Handles rate limits gracefully with retries
+
+Outputs results to an Excel file (news_labels.xlsx)
